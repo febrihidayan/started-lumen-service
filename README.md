@@ -19,7 +19,7 @@ Lumen API service dikembangkan menggunakan lumen framework.
    ```
 2. `composer install`
 3. `copy .env.example .env`
-4. Silakan konfigurasi basis data dan AWS
+4. Silakan konfigurasi basis data
    
    ```
     DB_CONNECTION=mysql
@@ -28,10 +28,6 @@ Lumen API service dikembangkan menggunakan lumen framework.
     DB_DATABASE=homestead
     DB_USERNAME=homestead
     DB_PASSWORD=secret
-
-    AWS_REGION=us-west-2
-    AWS_KEY=key
-    AWS_SECRET=secret
    ```
 5. `php artisan migrate`
 6. `php artisan serve` (http://127.0.0.1:8000)
